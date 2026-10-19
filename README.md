@@ -75,4 +75,5 @@ node --test *.test.mjs
 - `src/summary.mjs` — parsing, aggregation and formatting
 - `summary.test.mjs` — behavioural (integration) tests for the deliverable
 - `summary.unit.test.mjs` — unit tests for the exported summary functions
+- `acceptance.test.mjs` — acceptance-criteria traceability suite (one test per REQ-nnn criterion and per AMB-nnn decision)
 - `run-tests.sh` — the discoverable test entry point for the smoke gate
